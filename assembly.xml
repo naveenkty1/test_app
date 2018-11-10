@@ -6,8 +6,8 @@
   <includeBaseDirectory>false</includeBaseDirectory>
   <fileSets>
     <fileSet>
-      <directory>src/main/output</directory>
-      <outputDirectory>output</outputDirectory>
+      <directory>src</directory>
+      <outputDirectory>app</outputDirectory>
     </fileSet>
   </fileSets>
 </assembly>
