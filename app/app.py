@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def test_app:
-    return 'Testing dbdvb  Python DevOps Platform!'
+    return 'Testing Python DevOps Platform!'
 
 
 if __name == '__main__':
