@@ -1,0 +1,12 @@
+# sample_web/app.py
+
+From flask import Flask
+app = Flask(__name__)
+
+@app.route('/')
+def test_app:
+    return 'Testing Python DevOps Platform!'
+
+
+if __name == '__main__':
+    app.run(debug=True, host='0.0.0.0')
