@@ -24,7 +24,7 @@ def test_app5():
     return 'Testing JAVA DevOps Platform!'
 
 @app.route('/naveen')
-def test_app5():
+def test_app6():
     return 'Hello this is naveen from DevOps Support!'
 
 if __name__ == '__main__':
