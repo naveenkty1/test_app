@@ -23,9 +23,9 @@ def test_app4():
 def test_app5():
     return 'Testing JAVA DevOps Platform!'
 
-@app.route('/naveen')
+@app.route('/surendra')
 def test_app6():
-    return 'Hello This is naveen from DevOps Cary NC!'
+    return 'Hello This is surendra from DevOps Cary NC!'
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=80)
