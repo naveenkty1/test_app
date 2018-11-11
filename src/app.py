@@ -8,19 +8,19 @@ def test_app():
     return 'Testing Python DevOps Platform!'
 
 @app.route('/test2')
-def test_app():
+def test_app2():
     return 'Testing Angular DevOps Platform!'
 
 @app.route('/test3')
-def test_app():
+def test_app3():
     return 'Testing Scala DevOps Platform!'
 
 @app.route('/test4')
-def test_app():
+def test_app4():
     return 'Testing XML DevOps Platform!'
 
 @app.route('/test5')
-def test_app():
+def test_app5():
     return 'Testing JAVA DevOps Platform!'
 
 
