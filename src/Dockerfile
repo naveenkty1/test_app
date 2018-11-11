@@ -1,18 +1,17 @@
 FROM ubuntu:16.04
 
-MAINTANER Naveen "youremail@domain.tld"
-
 RUN apt-get update -y && \
-    apt-get install -y python-pip python-dev
+    apt-get install -y python-pip python-dev python-flask
 
-COPY ./requirements.txt /app/requirements.txt
 
 WORKDIR /opt/app
 
-RUN pip install -r requirements.txt
+COPY requirements.txt /app/requirements.txt
+
+RUN pip install -r /app/requirements.txt
 
 COPY . /app
 
 ENTRYPOINT [ "python" ]
 
-CMD [ "app.py" ]
+CMD [ "/app/app.py" ]
