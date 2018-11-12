@@ -25,7 +25,7 @@ def test_app5():
 
 @app.route('/naveen')
 def test_app6():
-    return 'Hello This is naveen from DevOps Cary NC!'
+    return 'This is naveen from DevOps Cary NC!'
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=80)
